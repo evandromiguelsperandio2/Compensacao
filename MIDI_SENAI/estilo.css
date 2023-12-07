@@ -1,0 +1,57 @@
+body{
+  background-image: url(img/fundo.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.deck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .sound-button {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sound-button:hover {
+    background-color: rgb(80, 167, 63);
+  }
+
+  .audio-controls {
+    margin: 20px;
+  }
+
+.button_play{
+    width: 60px;
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+  color: black;
+    text-shadow: 2px 2px 5px rgb(0, 255, 47);
+}
+
+.logo{
+  position: relative;
+  left: 33%;
+  margin-top: -90px;
+  margin-bottom: -60px;
+}
+
+header{
+  background-color: rgba(255, 255, 255, 0.649);
+  padding: 10px;
+}
+
+
+
